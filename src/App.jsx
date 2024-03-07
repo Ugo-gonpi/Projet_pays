@@ -17,11 +17,14 @@ function App() {
       <Header />
       {data.map((element, key) => {
         return(
-          <div key={key} className='w-[200px] h-[240px] flex justify-center items-center flex-wrap flex-row mb-[10px] text-center ml-[10px] mr-[10px] mt-[10px] rounded-[10px] bg-[hsl(0,0%,95%)]'>
+          <div key={key} className='w-[260px] h-[250px] flex justify-center items-center flex-wrap flex-row mb-[10px] text-center ml-[10px] mr-[10px] mt-[10px] rounded-[10px] bg-[hsl(0,0%,95%)]'>
             <img src={element.flags.png} alt="" className='w-full h-[50%] rounded-t-lg'/>
-            <p className='w-full h-[50%]'>
-              {element.name.common}
-            </p>
+            <div className='w-full h-[50%] font-[NunitoSans] font-bold text-[20px]'>
+              <h3 className='w-full text-[hsl(200,15%,8%)]'>
+                {element.name.common}
+              </h3>
+              
+            </div>
           </div>
         )
       })}
