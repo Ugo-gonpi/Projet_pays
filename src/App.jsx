@@ -22,7 +22,7 @@ function App() {
 
       {data.map((element, key) => {
         return(
-          <div key={key} className='w-[300px] h-[340px] flex justify-center items-center flex-wrap flex-row mb-[10px] text-center ml-[10px] mr-[10px] mt-[10px] rounded-[10px] bg-[hsl(0,0%,95%)] hover:scale-105'>
+          <div key={key} className='w-[270px] h-[340px] flex justify-center items-center flex-wrap flex-row mb-[10px] text-center ml-[20px] mr-[20px] mt-[10px] rounded-[10px] bg-[hsl(0,0%,95%)] hover:scale-105 transition-[2s]'>
 
             <img src={element.flags.png} alt="" className='w-full h-[50%] rounded-t-lg'/>
 
