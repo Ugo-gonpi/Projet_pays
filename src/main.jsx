@@ -7,7 +7,7 @@ import Details from './components/Details.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Projet_pays",
     element: <App/>,
   },
   {

@@ -4,13 +4,13 @@ import axios from 'axios';
 
 const Details = () => {
 
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
 
-    useEffect(() => {
-        axios.get("https://restcountries.com/v3.1/all")
-            .then((response) => setData(response.data))
-            .catch((error) => console.log(error));
-    }, []);
+    // useEffect(() => {
+    //     axios.get("https://restcountries.com/v3.1/all")
+    //         .then((response) => setData(response.data))
+    //         .catch((error) => console.log(error));
+    // }, []);
 
     return (
         <div className='w-screen h-screen bg-white flex flex-col'>
